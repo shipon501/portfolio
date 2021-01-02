@@ -1,0 +1,845 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* frist drop dawn menu*/
+.main-manu{
+    background: #5F5F5F;
+}
+.main-manu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+   
+}
+.main-manu ul li{
+    float: left;
+    position: relative;
+}
+.main-manu ul:after {
+    display: block;
+    content:'' ;
+    clear: both;
+}
+
+.main-manu ul li a {
+    color:#fff;
+    font-size: 20px;
+    text-decoration:none;
+    padding: 10px 20px;
+    display: block;
+}
+.main-manu ul li a:hover{
+   background: black;
+}
+/* 2ed drop dawn manu*/
+.main-manu ul ul li {
+    float: none;
+   
+}
+.main-manu ul ul {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    background: green;
+    width: 250px;
+    display: none;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+.main-manu ul li:hover > ul{
+    display: block;
+}
+.main-manu ul ul ul{
+    background:red ;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    
+
+}
+/*services-area design here*/
+
+.services{
+    background: #00A591;
+    padding: 50px 0;
+}
+ .services.services> h2{
+    font-size: 40px;
+    color:#fff;
+    margin:0;
+    padding: 40px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.services.services> p{
+    font-size: 19px;
+    color:#fff;
+    width: 58%;
+    margin: 10px auto;
+    text-align: center;
+    
+}
+.services hr{
+    border-top: none;
+    border-left: none;
+    border-left: none;
+    border-bottom: 5px solid yellow;
+    width: 10%;
+     margin: 10;
+    
+}
+.services-boxes{
+    text-align: center;
+    margin-top: 50px;
+}
+.services-boxes .box{
+    width: 22%;
+    display: inline-block;
+    
+}
+.box img{
+    height: 200px;
+    width: 200px;
+   
+}
+.services-boxes.box P{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+}
+/* top 4 freelancer*/
+.myname-area{
+    background-color: orange ;
+    margin: 0px;
+    padding: 10px;
+}
+.myname-area .myname h3 {
+    text-align: center;
+    font-size: 70px;
+}
+.myshipon{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.myshipon.myhamim{
+    width: 20%;
+    display:inline-block;
+    float: left;
+    
+    
+}
+.myhamim h4{
+    color: black;
+    font-size: 50px;
+    
+
+}
+.myhamim{
+    background-color: coral;
+    padding: 10px;
+}
+.myhamim h5{
+    color:black;
+    font-size: 30px;
+}
+.myhamim img {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   
+}
+.myhamim p{
+    width: 20%;
+    margin-top: auto;
+    display: inline-block;
+    border:solid 5px green;
+    padding: 10px;
+ 
+}.myhamim :hover{
+    background-color:black;
+    padding: 10px;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <section class="services">
+        <div class="contenar-">
+            <h1>SERVICES WE PROVIDE</h1>
+            <hr>
+            <p>WE are working with both individuals and businesses from all over the 
+                globe to cerate awesome website and applications 
+            </p>
+        </div>
+        
+          <div class="services-option">
+              <div class="services-top">
+                  <img src="programing-icon-0.png" alt="">
+                  <h2>Web Development</h2>
+                  <p>It is a long established fact that a reader will be
+                       distracted by the readable content of a page when looking 
+                      at its layout. The point of using Lorem Ipsum 
+                      is that it has a more-or-less normal distribution 
+                      of letters, as opposed to using 'Content here, content here',
+                       making it look like readable English</p>
+                       <br>
+                       <br>
+              </div>
+              <div class="services-top">
+                <img src="rocket-png-13.png" alt="">
+                <h2>Rocket Science</h2>
+                <p>It is a long established fact that a reader will be
+                     distracted by the readable content of a page when looking 
+                    at its layout. The point of using Lorem Ipsum 
+                    is that it has a more-or-less normal distribution 
+                    of letters, as opposed to using 'Content here, content here',
+                     making it look like readable English</p>
+            </div>
+            <div class="services-top">
+                <img src="Jonagold_NYAS-Apples2.png" alt="">
+                <h2>apple logo</h2>
+                <p>It is a long established fact that a reader will be
+                     distracted by the readable content of a page when looking 
+                    at its layout. The point of using Lorem Ipsum 
+                    is that it has a more-or-less normal distribution 
+                    of letters, as opposed to using 'Content here, content here',
+                     making it look like readable English</p>
+            </div>
+            <div class="services-top">
+                <img src="Facebook_Logo.png" alt="">
+                <h2>Facebook logo</h2>
+                <p>It is a long established fact that a reader will be
+                     distracted by the readable content of a page when looking 
+                    at its layout. The point of using Lorem Ipsum 
+                    is that it has a more-or-less normal distribution 
+                    of letters, as opposed to using 'Content here, content here',
+                     making it look like readable English</p>
+            </div>
+
+
+          </div>
+
+        
+    </section>
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Cert CSS
+Cert JavaScript
+Cert Front End
+Cert Python
+Cert jQuery
+Cert jQuery
+Cert PHP
+Cert Bootstrap
+Cert XML
+Career Tips
+Career CV
+
+
+JS HOME
+JS Introduction
+JS Where To
+JS Output
+JS Statements
+JS Syntax
+JS Comments
+JS Variables
+JS Operators
+JS Arithmetic
+JS Assignment
+JS Data Types
+JS Functions
+JS Objects
+JS Events
+JS Strings
+JS String Methods
+JS Numbers
+JS Number Methods
+JS Arrays
+JS Array Methods
+JS Array Sort
+JS Array Iteration
+JS Dates
+JS Date Formats
+JS Date Get Methods
+JS Date Set Methods
+JS Math
+JS Random
+JS Booleans
+JS Comparisons
+JS Conditions
+JS Switch
+JS Loop For
+JS Loop While
+JS Break
+JS Type Conversion
+JS Bitwise
+JS RegExp
+JS Errors
+JS Scope
+JS Hoisting
+JS Strict Mode
+JS this Keyword
+JS Let
+JS Const
+JS Arrow Function
+JS Classes
+JS Debugging
+JS Style Guide
+JS Best Practices
+JS Mistakes
+JS Performance
+JS Reserved Words
+JS Versions
+JS 2009 (ES5)
+JS 2015 (ES6)
+JS 2016
+JS 2017
+JS JSON
+
+JS Forms
+JS Forms
+Forms API
+
+JS Objects
+Object Definitions
+Object Properties
+Object Methods
+Object Display
+Object Accessors
+Object Constructors
+Object Prototypes
+Object ECMAScript 5
+
+JS Functions
+Function Definitions
+Function Parameters
+Function Invocation
+Function Call
+Function Apply
+Function Closures
+
+JS Classes
+Class Intro
+Class Inheritance
+Class Static
+
+JS Async
+JS Callbacks
+JS Asynchronous
+JS Promises
+JS Async/Await
+
+JS HTML DOM
+DOM Intro
+DOM Methods
+DOM Document
+DOM Elements
+DOM HTML
+DOM CSS
+DOM Animations
+DOM Events
+DOM Event Listener
+DOM Navigation
+DOM Nodes
+DOM Collections
+DOM Node Lists
+
+JS Browser BOM
+JS Window
+JS Screen
+JS Location
+JS History
+JS Navigator
+JS Popup Alert
+JS Timing
+JS Cookies
+
+JS AJAX
+AJAX Intro
+AJAX XMLHttp
+AJAX Request
+AJAX Response
+AJAX XML File
+AJAX PHP
+AJAX ASP
+AJAX Database
+AJAX Applications
+AJAX Examples
+
+JS JSON
+JSON Intro
+JSON Syntax
+JSON vs XML
+JSON Data Types
+JSON Parse
+JSON Stringify
+JSON Objects
+JSON Arrays
+JSON PHP
+JSON HTML
+JSON JSONP
+
+JS Web APIs
+Web API Intro
+Web History API
+Web Storage API
+Web Worker API
+Web Fetch API
+Web Geolocation API
+
+JS vs jQuery
+jQuery Selectors
+jQuery HTML
+jQuery CSS
+jQuery DOM
+
+JS Examples
+JS Examples
+JS HTML DOM
+JS HTML Input
+JS HTML Objects
+JS HTML Events
+JS Browser
+JS Editor
+JS Exercises
+JS Quiz
+JS Certificate
+
+JS References
+JavaScript Objects
+HTML DOM Objects
+
+
+*/
+/*JS Tutorial
+JS Forms
+
+
+
+*/
+/*
+Python HOME
+Python Intro
+Python Get Started
+Python Syntax
+Python Comments
+Python Variables
+Python Data Types
+Python Numbers
+Python Casting
+Python Strings
+Python Booleans
+Python Operators
+Python Lists
+Python Tuples
+Python Sets
+Python Dictionaries
+Python If...Else
+Python While Loops
+Python For Loops
+Python Functions
+Python Lambda
+Python Arrays
+Python Classes/Objects
+Python Inheritance
+Python Iterators
+Python Scope
+Python Modules
+Python Dates
+Python Math
+Python JSON
+Python RegEx
+Python PIP
+Python Try...Except
+Python User Input
+Python String Formatting
+
+File Handling
+Python File Handling
+Python Read Files
+Python Write/Create Files
+Python Delete Files
+
+Python NumPy
+NumPy Intro
+NumPy Getting Started
+NumPy Creating Arrays
+NumPy Array Indexing
+NumPy Array Slicing
+NumPy Data Types
+NumPy Copy vs View
+NumPy Array Shape
+NumPy Array Reshape
+NumPy Array Iterating
+NumPy Array Join
+NumPy Array Split
+NumPy Array Search
+NumPy Array Sort
+NumPy Array Filter
+NumPy Random
+NumPy ufunc
+
+Python Pandas
+Pandas Tutorial
+Pandas Getting Started
+Pandas Series
+Pandas DataFrames
+Pandas Read CSV
+Pandas Read JSON
+Pandas Analyzing Data
+Pandas Cleaning Data
+Pandas Correlations
+Pandas Plotting
+
+Python Matplotlib
+Matplotlib Intro
+Matplotlib Get Started
+Matplotlib Pyplot
+Matplotlib Plotting
+Matplotlib Markers
+Matplotlib Line
+Matplotlib Subplots
+Matplotlib Scatter
+Matplotlib Bars
+Matplotlib Histograms
+Matplotlib Pie Charts
+
+Python SciPy
+SciPy Intro
+SciPy Getting Started
+SciPy Constants
+SciPy Optimizers
+SciPy Sparse Data
+SciPy Graphs
+SciPy Spatial Data
+SciPy Matlab Arrays
+SciPy Interpolation
+SciPy Significance Tests
+
+Machine Learning
+Getting Started
+Mean Median Mode
+Standard Deviation
+Percentile
+Data Distribution
+Normal Data Distribution
+Scatter Plot
+Linear Regression
+Polynomial Regression
+Multiple Regression
+Scale
+Train/Test
+Decision Tree
+
+Python MySQL
+MySQL Get Started
+MySQL Create Database
+MySQL Create Table
+MySQL Insert
+MySQL Select
+MySQL Where
+MySQL Order By
+MySQL Delete
+MySQL Drop Table
+MySQL Update
+MySQL Limit
+MySQL Join
+
+Python MongoDB
+MongoDB Get Started
+MongoDB Create Database
+MongoDB Create Collection
+MongoDB Insert
+MongoDB Find
+MongoDB Query
+MongoDB Sort
+MongoDB Delete
+MongoDB Drop Collection
+MongoDB Update
+MongoDB Limit
+
+Python Reference
+Python Overview
+Python Built-in Functions
+Python String Methods
+Python List Methods
+Python Dictionary Methods
+Python Tuple Methods
+Python Set Methods
+Python File Methods
+Python Keywords
+Python Exceptions
+Python Glossary
+
+Module Reference
+Random Module
+Requests Module
+Statistics Module
+Math Module
+cMath Module
+
+Python How To
+Remove List Duplicates
+Reverse a String
+Add Two Numbers
+
+Python Examples
+Python Examples
+Python Compiler
+Python Exercises
+Python Quiz
+Python Certificate
+*/
